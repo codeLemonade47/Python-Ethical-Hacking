@@ -1,5 +1,14 @@
 import socket
+
+print ("""
+___  ____ _  _ ____ ____ _  _    
+|__] [__  |__| |__| |__/ |_/     
+|    ___] |  | |  | |  \ | \_    
+        By: Mohit
+""")
+
 from IPy import IP
+
 def scan(target):
     converted_ip = check_ip(target)
     print('\n' + '[- 0 Scanning target]' + str(target))
